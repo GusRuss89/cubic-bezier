@@ -1,14 +1,4 @@
-NodeList.prototype.array = function() {
-	return Array.prototype.slice.call(this);
-};
-
-function find(qs) {
-	return document.querySelectorAll(qs).array();
-}
-
 $(document).ready(function(){
-
-	// canvas
 
 	// curve on click
 	$('#showCurve').click(function(){
